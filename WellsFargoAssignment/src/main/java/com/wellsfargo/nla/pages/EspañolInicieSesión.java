@@ -18,7 +18,7 @@ public class EspañolInicieSesión {
 		String actualespañolInicieSesiónPageTitle = driver.getTitle();
 		System.out.println(actualespañolInicieSesiónPageTitle);
 		Assert.assertEquals(actualespañolInicieSesiónPageTitle, expectedespañolInicieSesiónPageTitle);
-		System.out.println("Actual español Inicie Sesión Page Title:"+actualespañolInicieSesiónPageTitle+" || matches with the Expected Español Inicie Sesión Page Title: "+expectedespañolInicieSesiónPageTitle);
+		System.out.println("Actual español Inicie Sesión Page Title:"+actualespañolInicieSesiónPageTitle+"\nExpected Español Inicie Sesión Page Title: "+expectedespañolInicieSesiónPageTitle+"\n\n");
 		System.out.println("********************************Español Inicie Sesión Page Title Verified********************************\n\n");
 		return driver.findElement(By.cssSelector("#btnSignon")).getAttribute("value");
 	}

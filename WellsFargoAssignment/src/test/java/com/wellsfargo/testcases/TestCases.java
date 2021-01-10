@@ -24,10 +24,10 @@ public class TestCases {
 		String actualBtnText= new SignOnPage().signOnPage();
 		String expectedTitle = "Wells Fargo – Banking, Credit Cards, Loans, Mortgages & More";
 		Assert.assertEquals(driver.getTitle(), expectedTitle);
-		System.out.println("Actual Url Title : "+driver.getTitle()+" || matches to the Expected Title: "+expectedTitle);
+		System.out.println("Actual Url Title : "+driver.getTitle()+"\nExpected Title: "+expectedTitle+"\n\n");
 		System.out.println("********************************Url Title Verified********************************\n\n");
 		Assert.assertEquals(actualBtnText, expectedBtnText);
-		System.out.println("Actual Text On Sign On Button: "+actualBtnText+" Matches the Expected Text On the Button: "+expectedBtnText);
+		System.out.println("Actual Text On Sign On Button: "+actualBtnText+"\nExpected Text On the Button: "+expectedBtnText+"\n\n");
 		System.out.println("********************************Sign On Page Verified********************************\n\n");
 //		driver.close();
 	}
@@ -37,7 +37,7 @@ public class TestCases {
 		String expextedEnrollInWellsFargoOnlinePageHeadingText = "Enroll in Wells Fargo Online®";
 		String actualEnrollInWellsFargoOnlinePageHeadingText = new com.wellsfargo.nla.pages.EnrollInWellsFargoOnlinePage().enrollInWellsFargoOnlinePage();
 		Assert.assertEquals(actualEnrollInWellsFargoOnlinePageHeadingText, expextedEnrollInWellsFargoOnlinePageHeadingText);
-		System.out.println("Actual Enroll in Wells Fargo Online page Heading: "+actualEnrollInWellsFargoOnlinePageHeadingText+" || matches to the Expected Enroll in Wells Fargo Online page heading: "+expextedEnrollInWellsFargoOnlinePageHeadingText);
+		System.out.println("Actual Enroll in Wells Fargo Online page Heading: "+actualEnrollInWellsFargoOnlinePageHeadingText+"\nExpected Enroll in Wells Fargo Online page heading: "+expextedEnrollInWellsFargoOnlinePageHeadingText+"\n\n");
 		System.out.println("********************************Enroll in Wells Fargo Online Page Verified********************************\n\n");
 		driver.navigate().to("https://www.wellsfargo.com/");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -50,7 +50,7 @@ public class TestCases {
 		String actualCustomerServicePageHeadingText = new com.wellsfargo.nla.pages.CustomerServicePage().customerServicePage();
 		String expectedCustomerServicePageHeadingText = "Customer Service";
 		Assert.assertEquals(actualCustomerServicePageHeadingText, expectedCustomerServicePageHeadingText);
-		System.out.println("Actual Customer Service Page Heading Text: "+actualCustomerServicePageHeadingText+" || matches to the Expected Customer Service Page Heading Text: "+expectedCustomerServicePageHeadingText);
+		System.out.println("Actual Customer Service Page Heading Text: "+actualCustomerServicePageHeadingText+"\nExpected Customer Service Page Heading Text: "+expectedCustomerServicePageHeadingText+"\n\n");
 		System.out.println("********************************Customer Service Page Heading Text Verified********************************\n\n");
 	}
 	
@@ -59,7 +59,7 @@ public class TestCases {
 		String actualATMAndBankingLocationsPageHeadingText = new com.wellsfargo.nla.pages.ATMAndBankingLocationsPage().aTMAndBankingLocationsPage();
 		String expectedATMAndBankingLocationsPageHeadingText = "ATM and Banking Locations";
 		Assert.assertEquals(actualATMAndBankingLocationsPageHeadingText, expectedATMAndBankingLocationsPageHeadingText);
-		System.out.println("Actual ATM and Banking Locations Page Heading Text: "+actualATMAndBankingLocationsPageHeadingText+" || matches to the Expected ATM and Banking Locations Page Heading Text: "+expectedATMAndBankingLocationsPageHeadingText);
+		System.out.println("Actual ATM and Banking Locations Page Heading Text: "+actualATMAndBankingLocationsPageHeadingText+"\nExpected ATM and Banking Locations Page Heading Text: "+expectedATMAndBankingLocationsPageHeadingText+"\n\n");
 		System.out.println("********************************ATM and Banking Locations Page Heading Text Verified********************************\n\n");
 	}
 	
@@ -68,7 +68,7 @@ public class TestCases {
 		String expectedBtnText = "Inicie sesión";
 		String actualBtnText= new EspañolInicieSesión().españolInicieSesión();
 		Assert.assertEquals(actualBtnText, expectedBtnText);
-		System.out.println("Actual Text On Inicie Sesión Button: "+actualBtnText+" Matches the Expected Text On the Inicie Sesión Button: "+expectedBtnText);
+		System.out.println("Actual Text On Inicie Sesión Button: "+actualBtnText+"\nExpected Text On the Inicie Sesión Button: "+expectedBtnText+"\n\n");
 		System.out.println("********************************Inicie Sesión Page Verified********************************\n\n");
 		
 	}

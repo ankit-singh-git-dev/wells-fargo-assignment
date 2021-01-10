@@ -17,7 +17,7 @@ public class CustomerServicePage {
 		String expectedCustomerServicePageTitle = "Customer Service – Wells Fargo";
 		String actualCustomerServicePageTitle = driver.getTitle();
 		Assert.assertEquals(actualCustomerServicePageTitle, expectedCustomerServicePageTitle);
-		System.out.println("Actual Customer Service Page Title:"+actualCustomerServicePageTitle+" || matches with the Expected Customer Service Page Title: "+expectedCustomerServicePageTitle);
+		System.out.println("Actual Customer Service Page Title:"+actualCustomerServicePageTitle+"\nExpected Customer Service Page Title: "+expectedCustomerServicePageTitle+"\n\n");
 		System.out.println("********************************Customer Service Page Title Verified********************************\n\n");
 		return driver.findElement(By.xpath("//*[@id='skip']")).getText();
 	}

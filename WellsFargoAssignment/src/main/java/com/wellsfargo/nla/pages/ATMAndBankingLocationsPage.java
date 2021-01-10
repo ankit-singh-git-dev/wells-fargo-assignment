@@ -20,7 +20,7 @@ public class ATMAndBankingLocationsPage {
 		String expectedATMAndBankingLocationsPageTitle = "ATM and Bank Locations - Find Wells Fargo Bank and ATM Locations";
 		String actualATMAndBankingLocationsPageTitle = driver.getTitle();
 		Assert.assertEquals(actualATMAndBankingLocationsPageTitle, expectedATMAndBankingLocationsPageTitle);
-		System.out.println("Actual ATM and Banking Locations Page Title:"+actualATMAndBankingLocationsPageTitle+" || matches with the Expected ATM and Banking Locations Page Title: "+expectedATMAndBankingLocationsPageTitle);
+		System.out.println("Actual ATM and Banking Locations Page Title:"+actualATMAndBankingLocationsPageTitle+"\nExpected ATM and Banking Locations Page Title: "+expectedATMAndBankingLocationsPageTitle+"\n\n");
 		System.out.println("********************************ATM and Banking Locations Page Title Verified********************************\n\n");
 		return driver.findElement(By.xpath("//*[text()='ATM and Banking Locations']")).getText();
 	}

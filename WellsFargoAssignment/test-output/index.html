@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.wellsfargo.testcases.TestCases" class="method navigator-link" hash-for-method="ATMAndBankingLocationsPage">ATMAndBankingLocationsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.wellsfargo.testcases.TestCases" class="method navigator-link" hash-for-method="ATMAndBankingLocationsPage">ATMAndBankingLocationsPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.wellsfargo.testcases.TestCases" class="method navigator-link" hash-for-method="CustomerServicePage">CustomerServicePage</a> <!-- method navigator-link -->
@@ -137,9 +146,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.wellsfargo.testcases.TestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,8 +157,21 @@
                   <a name="ATMAndBankingLocationsPage">
                   </a> <!-- ATMAndBankingLocationsPage -->
                   <span class="method-name">ATMAndBankingLocationsPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ATM and Bank Locations - Find Wells Fargo Bank and ATM Locations] but found []
+	at com.wellsfargo.nla.pages.ATMAndBankingLocationsPage.aTMAndBankingLocationsPage(ATMAndBankingLocationsPage.java:22)
+	at com.wellsfargo.testcases.TestCases.ATMAndBankingLocationsPage(TestCases.java:59)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wellsfargo.testcases.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="CustomerServicePage">
@@ -236,23 +258,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'EnrollInWellsFargoOnlinePage')
 data.setCell(0, 2, 'com.wellsfargo.testcases.TestCases')
-data.setCell(0, 3, 24776);
+data.setCell(0, 3, 18876);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SignOnPage')
 data.setCell(1, 2, 'com.wellsfargo.testcases.TestCases')
-data.setCell(1, 3, 22150);
+data.setCell(1, 3, 17323);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'ATMAndBankingLocationsPage')
 data.setCell(2, 2, 'com.wellsfargo.testcases.TestCases')
-data.setCell(2, 3, 14991);
+data.setCell(2, 3, 14992);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'CustomerServicePage')
 data.setCell(3, 2, 'com.wellsfargo.testcases.TestCases')
-data.setCell(3, 3, 9807);
+data.setCell(3, 3, 9455);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'españolInicieSesión')
 data.setCell(4, 2, 'com.wellsfargo.testcases.TestCases')
-data.setCell(4, 3, 2735);
+data.setCell(4, 3, 2541);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -290,43 +312,45 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToSignOnPage</span>
-                <span class="method-start">22155 ms</span>
+                <span class="method-start">17328 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">EnrollInWellsFargoOnlinePage</span>
-                <span class="method-start">26231 ms</span>
+                <span class="method-start">21478 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToSignOnPage</span>
-                <span class="method-start">51009 ms</span>
+                <span class="method-start">40358 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">CustomerServicePage</span>
-                <span class="method-start">57233 ms</span>
+                <span class="method-start">45661 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToSignOnPage</span>
-                <span class="method-start">67042 ms</span>
+                <span class="method-start">55118 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ATMAndBankingLocationsPage</span>
-                <span class="method-start">72843 ms</span>
+                <span class="method-start">60758 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToSignOnPage</span>
-                <span class="method-start">87836 ms</span>
+                <span class="method-start">75761 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">españolInicieSesión</span>
-                <span class="method-start">94342 ms</span>
+                <span class="method-start">82270 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">navigateToSignOnPage</span>
-                <span class="method-start">97079 ms</span>
+                <span class="method-start">84814 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">CloseTheBrowser</span>
-                <span class="method-start">103074 ms</span>
+                <span class="method-start">89331 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
