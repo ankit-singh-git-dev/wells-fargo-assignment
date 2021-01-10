@@ -5,7 +5,11 @@
     <classes>
       <class name="com.wellsfargo.testcases.TestCases">
         <methods>
+          <include name="ATMAndBankingLocationsPage"/>
+          <include name="españolInicieSesión"/>
           <include name="CustomerServicePage"/>
+          <include name="EnrollInWellsFargoOnlinePage"/>
+          <include name="SignOnPage"/>
           <include name="navigateToSignOnPage"/>
           <include name="CloseTheBrowser"/>
         </methods>

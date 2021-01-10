@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-10T06:58:39Z" name="Suite" finished-at="2021-01-10T07:00:48Z" duration-ms="129050">
+  <suite started-at="2021-01-10T08:12:41Z" name="Suite" finished-at="2021-01-10T08:14:23Z" duration-ms="102721">
     <groups>
     </groups>
-    <test started-at="2021-01-10T06:58:39Z" name="Test" finished-at="2021-01-10T07:00:48Z" duration-ms="129050">
+    <test started-at="2021-01-10T08:12:41Z" name="Test" finished-at="2021-01-10T08:14:23Z" duration-ms="102721">
       <class name="com.wellsfargo.testcases.TestCases">
-        <test-method signature="SignOnPage()[pri:1, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:58:39Z" name="SignOnPage" finished-at="2021-01-10T06:59:01Z" duration-ms="21745" status="PASS">
+        <test-method signature="SignOnPage()[pri:1, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:12:41Z" name="SignOnPage" finished-at="2021-01-10T08:13:03Z" duration-ms="22150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOnPage -->
-        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:01Z" name="navigateToSignOnPage" finished-at="2021-01-10T06:59:06Z" duration-ms="5154" status="PASS">
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:13:03Z" name="navigateToSignOnPage" finished-at="2021-01-10T08:13:07Z" duration-ms="4072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignOnPage -->
-        <test-method signature="EnrollInWellsFargoOnlinePage()[pri:2, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:06Z" name="EnrollInWellsFargoOnlinePage" finished-at="2021-01-10T06:59:31Z" duration-ms="25207" status="PASS">
+        <test-method signature="EnrollInWellsFargoOnlinePage()[pri:2, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:13:07Z" name="EnrollInWellsFargoOnlinePage" finished-at="2021-01-10T08:13:32Z" duration-ms="24776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnrollInWellsFargoOnlinePage -->
-        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:31Z" name="navigateToSignOnPage" finished-at="2021-01-10T06:59:36Z" duration-ms="4723" status="PASS">
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:13:32Z" name="navigateToSignOnPage" finished-at="2021-01-10T08:13:38Z" duration-ms="6223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignOnPage -->
-        <test-method signature="CustomerServicePage()[pri:3, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:36Z" name="CustomerServicePage" finished-at="2021-01-10T06:59:47Z" duration-ms="11301" status="PASS">
+        <test-method signature="CustomerServicePage()[pri:3, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:13:38Z" name="CustomerServicePage" finished-at="2021-01-10T08:13:48Z" duration-ms="9807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerServicePage -->
-        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:47Z" name="navigateToSignOnPage" finished-at="2021-01-10T06:59:55Z" duration-ms="7553" status="PASS">
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:13:48Z" name="navigateToSignOnPage" finished-at="2021-01-10T08:13:53Z" duration-ms="5799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignOnPage -->
-        <test-method signature="ATMAndBankingLocationsPage()[pri:4, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:55Z" name="ATMAndBankingLocationsPage" finished-at="2021-01-10T07:00:12Z" duration-ms="17179" status="PASS">
+        <test-method signature="ATMAndBankingLocationsPage()[pri:4, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:13:53Z" name="ATMAndBankingLocationsPage" finished-at="2021-01-10T08:14:08Z" duration-ms="14991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ATMAndBankingLocationsPage -->
-        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:12Z" name="navigateToSignOnPage" finished-at="2021-01-10T07:00:20Z" duration-ms="7981" status="PASS">
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:14:08Z" name="navigateToSignOnPage" finished-at="2021-01-10T08:14:15Z" duration-ms="6505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignOnPage -->
-        <test-method signature="españolInicieSesión()[pri:5, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:20Z" name="españolInicieSesión" finished-at="2021-01-10T07:00:42Z" duration-ms="22241" status="PASS">
+        <test-method signature="españolInicieSesión()[pri:5, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:14:15Z" name="españolInicieSesión" finished-at="2021-01-10T08:14:18Z" duration-ms="2735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- españolInicieSesión -->
-        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:42Z" name="navigateToSignOnPage" finished-at="2021-01-10T07:00:48Z" duration-ms="5871" status="PASS">
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:14:18Z" name="navigateToSignOnPage" finished-at="2021-01-10T08:14:23Z" duration-ms="5593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignOnPage -->
-        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:49Z" name="CloseTheBrowser" finished-at="2021-01-10T07:00:50Z" duration-ms="1585" status="PASS">
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:com.wellsfargo.testcases.TestCases@3b2cf7ab]" started-at="2021-01-10T08:14:24Z" name="CloseTheBrowser" finished-at="2021-01-10T08:14:24Z" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseTheBrowser -->
