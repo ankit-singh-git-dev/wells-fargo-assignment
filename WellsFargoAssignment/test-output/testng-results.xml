@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-10T06:58:39Z" name="Suite" finished-at="2021-01-10T07:00:48Z" duration-ms="129050">
+    <groups>
+    </groups>
+    <test started-at="2021-01-10T06:58:39Z" name="Test" finished-at="2021-01-10T07:00:48Z" duration-ms="129050">
+      <class name="com.wellsfargo.testcases.TestCases">
+        <test-method signature="SignOnPage()[pri:1, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:58:39Z" name="SignOnPage" finished-at="2021-01-10T06:59:01Z" duration-ms="21745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOnPage -->
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:01Z" name="navigateToSignOnPage" finished-at="2021-01-10T06:59:06Z" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignOnPage -->
+        <test-method signature="EnrollInWellsFargoOnlinePage()[pri:2, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:06Z" name="EnrollInWellsFargoOnlinePage" finished-at="2021-01-10T06:59:31Z" duration-ms="25207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnrollInWellsFargoOnlinePage -->
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:31Z" name="navigateToSignOnPage" finished-at="2021-01-10T06:59:36Z" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignOnPage -->
+        <test-method signature="CustomerServicePage()[pri:3, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:36Z" name="CustomerServicePage" finished-at="2021-01-10T06:59:47Z" duration-ms="11301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerServicePage -->
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:47Z" name="navigateToSignOnPage" finished-at="2021-01-10T06:59:55Z" duration-ms="7553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignOnPage -->
+        <test-method signature="ATMAndBankingLocationsPage()[pri:4, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T06:59:55Z" name="ATMAndBankingLocationsPage" finished-at="2021-01-10T07:00:12Z" duration-ms="17179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATMAndBankingLocationsPage -->
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:12Z" name="navigateToSignOnPage" finished-at="2021-01-10T07:00:20Z" duration-ms="7981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignOnPage -->
+        <test-method signature="españolInicieSesión()[pri:5, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:20Z" name="españolInicieSesión" finished-at="2021-01-10T07:00:42Z" duration-ms="22241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- españolInicieSesión -->
+        <test-method is-config="true" signature="navigateToSignOnPage()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:42Z" name="navigateToSignOnPage" finished-at="2021-01-10T07:00:48Z" duration-ms="5871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignOnPage -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:com.wellsfargo.testcases.TestCases@3a079870]" started-at="2021-01-10T07:00:49Z" name="CloseTheBrowser" finished-at="2021-01-10T07:00:50Z" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- com.wellsfargo.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
